@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    background-image: url(../images/header_bg.png);
+    height: 828px;
+}
+
+
+.content {
+    margin: 0;
+}
+
+#projects {
+    background-color: #16a085;
+    height: 1000px;
+}
+
+#team {
+    background-color: #1abc9c;
+    height: 1000px;
+}
+
+
+#add {
+    background-color: #34495e;
+    height: 1000px;
+}
+
+#about_us {
+    background-color: #2c3e50;
+    height: 1000px;
+}
+
+#footer {
+    background-image: url(../images/footer_bg.png);
+    height: 1000px;
+    
+}
+
+h1, p {
+    color: white;
+    font-family: Proxima Nova, Arial;
+}
+
+
+/*Шапка*/
+
+
+
+.logo {
+    font-size: 30pt;
+    margin-left: 1300px;
+    margin-top: -50px;
+}
+
+#header img {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#header p {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 200px;
+}
+
+/*Наши Проекты*/
+
+
+#projects h1 {
+    font-size: 30pt;
+    margin-left: 300px;
+    padding: 40px 0;
+}
+
+#projects img {
+   position: absolute;
+
+}
+
+.plate_1 {
+    margin-left: 250px;
+}
+
+.plate_2 {
+    margin-left: 850px;
+}
+
+.plate_3 {
+    margin-top: 400px;
+    margin-left: 150px;
+}
+
+.plate_4 {
+    margin: 400px 0px 0px 750px;
+}
+
+
+/*Наша Команда*/
+
+
+#team h1 {
+    font-size: 30pt;
+    margin-left: 300px;
+    padding: 40px 0;
+}
+
+#team p {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25pt;
+    padding: 80px;
+}
+
+#team img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+
+/*Доп. Услуги*/
+
+
+#add h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#add p {
+    margin-left: 600px;
+    font-size: 25pt;
+    padding: 80px;
+}
+
+
+#add img {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+    width: 60px;
+}
+
+
+.social_icon {
+    margin-top: -10px;
+}
+
+
+
+/*О Нас*/
+
+#about_us h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding: 50px 0 200px 0;
+}
+
+#about_us p {
+    font-size: 30pt;
+    text-align: center;
+}
+
+
+/*footer*/
+
+#footer h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*Form*/
+legend {
+    color: white;
+    font-family: Proxima Nova, Arial;
+    font-size: 30pt;
+    margin: -250px 0 0 800px;
+}
+
+.form-name, .form-mail {
+    width: 480px;
+    height: 63px;
+    margin: 50px 100px;
+    border-color: red;
+    background: transparent;
+    border-radius: 10px;
+    
+}
+
+
+.form-submit {
+    width: 240px;
+    height: 63px;
+    margin: 50px 210px;
+    border-color: red;
+    background: transparent;
+    border-radius: 10px;
+    direction: none;
+}
+
+
+
+input [type="text"] ::-webkit-input-placeholder {
+  color: red;
+}
+
+input :focus::-webkit-input-placeholder {color:transparent}
+
+
+
+
+
+
+/*Footer/Social*/
+
+
+#social img {
+    position: absolute;
+}
+
+.vk_icon {
+    margin-left: 200px;
+    margin-top: 200px;
+    width:20px;
+}
+
+.fb_icon {
+    margin-left: 400px;
+    margin-top: 170px;
+    width: 20px;
+}
+
+.mail_icon {
+    
+}
