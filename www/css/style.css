@@ -43,7 +43,7 @@ body {
 #footer {
     background-image: url(../images/footer_bg.png);
     height: 1000px;
-    
+
 }
 
 h1, p {
@@ -191,7 +191,7 @@ form{
 }
 legend {
     color: white;
-    font-family: Proxima Nova, Arial;
+    font-family: Proxima Nova, Arial, sans-serif;
     font-size: 30pt;
     margin: -250px 0 0 900px;
 }
@@ -204,7 +204,7 @@ legend {
     border-color: red;
     background: transparent;
     border-radius: 10px;
-    
+
 }
 
 
@@ -228,7 +228,7 @@ input {
     font-family: Proxima nova, Arial, sans-serif;
     font-size: 15pt;
     padding: 0 0 0 20px;
-    
+
 }
 
 button {
@@ -253,7 +253,7 @@ button {
 
 #social {
     margin: 300px 0 0 300px;
-    
+
 }
 
 #social p {
@@ -262,6 +262,3 @@ button {
     display: inline;
     padding-right: 40px;
 }
-
-
-
