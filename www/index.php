@@ -7,7 +7,7 @@ include_once 'blocks\head.php';
     <div id="wrapper">
         <?php include_once 'blocks\header.php'; ?>
         <div class="content">
-           <!--Блок«Наши прокты»-->
+           <!--Блок«Наши проекты»-->
             <?php include_once 'blocks\projects.php'; ?>
             <!--Блок Наша Команда -->
             <?php include_once 'blocks\about_us.php';
