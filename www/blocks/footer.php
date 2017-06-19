@@ -1,11 +1,12 @@
 <div id="footer">
      <h1>Если вам нужен сайт, свяжитесь с нами! </h1>
-     <form action="#" method="post">
-         <input class="form-name" type="text" name="Name" placeholder="Как к вам обращаться ?"><br>
-         <input class="form-mail" type="mail" name="mail" placeholder="Введите ваш E-mail"><br>
+
+         <input  class="form-name" type="text" name="Name" placeholder="Как к вам обращаться ?" required><br>
+         <input  class="form-mail" type="mail" name="mail" placeholder="Введите ваш E-mail" required><br>
+         <div id="messageShow"></div>
          <button type="submit">Отправить</button>
          <legend>Пожалуйста, оставте свои<br> контакты и мы свяжемся с<br> Вами!</legend>
-     </form>
+
      <div id="social">
          <a href="vk.com/web_fabrique"><img class="vk_icon" src="images/vk_icon.png" alt=""></a>
          <a href=""><p>vk.com/web_fabrique</p></a>

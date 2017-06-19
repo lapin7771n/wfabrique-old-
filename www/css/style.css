@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    outline: none;
 }
 
 body {
@@ -14,6 +15,10 @@ body {
     height: 828px;
 }
 
+#footer {
+  background-image: url(../images/footer_bg.png);
+  height: 1000px;
+}
 
 .content {
     margin: 0;
@@ -40,11 +45,7 @@ body {
     height: 1000px;
 }
 
-#footer {
-    background-image: url(../images/footer_bg.png);
-    height: 1000px;
 
-}
 
 h1, p {
     color: white;
@@ -196,7 +197,7 @@ legend {
     margin: -250px 0 0 900px;
 }
 
-.form-name, .form-mail {
+.form-name, .form-email {
     width: 480px;
     height: 63px;
     margin-top: 50px;
@@ -216,7 +217,7 @@ input[type="text"]::-webkit-input-placeholder {
     padding: 0 0 0 20px;
 }
 
-input[type="mail"]::-webkit-input-placeholder {
+input[type="email"]::-webkit-input-placeholder {
     color: #fff;
     font-family: Proxima nova, Arial, sans-serif;
     font-size: 15pt;
@@ -230,8 +231,15 @@ input {
     padding: 0 0 0 20px;
 
 }
+#wrapper #footer #messageShow {
+  font-size: 1.2em;
+  float: left;
+  color: red;
+  width: 100%;
+  text-align: #button;
+}
 
-button {
+input[type="button"] {
     width: 240px;
     height: 63px;
     margin-top: 50px;
